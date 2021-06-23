@@ -15,8 +15,13 @@ const Nav = (props) => {
       >
         Blog
       </NavLink>
+
       <NavLink href="/about" active={router.pathname === "/about"}>
         About
+      </NavLink>
+      
+      <NavLink href="/contact" active={router.pathname === "/contact"}>
+        Contact me
       </NavLink>
     </Box>
   )
